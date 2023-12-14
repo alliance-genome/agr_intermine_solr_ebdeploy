@@ -9,7 +9,7 @@ services:
       options:
         gelf-address: 'udp://logs.alliancegenome.org:12201'
     ports:
-      - "8080:8080"
+      - "8983:8983"
     networks:
       - intermine
     env_file:
